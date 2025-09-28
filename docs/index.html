@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Subir y mostrar imagen (File API)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Subir y mostrar imagen</h1>
+    <p>Selecciona una imagen desde tu dispositivo. Se validará que sea una imagen y se mostrará en la página usando la File API.</p>
+    <label class="file-label">
+      <input id="fileInput" type="file" accept="image/*">
+      <span class="btn">Seleccionar imagen</span>
+    </label>
+    <div id="preview" class="preview"><p>No hay imagen cargada</p></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
